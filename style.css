@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #121212;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.clock-card {
+  background: #1e1e1e;
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+.time-display {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: monospace;
+  color: #00ffcc;
+  margin-bottom: 10px;
+}
+
+.date-display {
+  color: #a0a0a0;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.controls button {
+  padding: 10px 18px;
+  margin: 0 8px;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+#formatBtn {
+  background: #333333;
+  color: #ffffff;
+}
+
+#toggleBtn.pause {
+  background: #ff5722;
+  color: #ffffff;
+}
+
+#toggleBtn.resume {
+  background: #4caf50;
+  color: #ffffff;
+}
+
+.controls button:hover {
+  opacity: 0.85;
+}
